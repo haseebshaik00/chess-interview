@@ -21,3 +21,8 @@ Engineering Internship, Frontend role Interview Prep!
 - Two main ways to use: Options & Composition API
 - View CDN, View CLI, We frameworks
 - Create View: uses vite (HMR, Rollup), out of the box ts, huge ecosystem of plugins!
+
+## Vue CDN
+Check out a simple implementation here: [Vue CDN](https://github.com/haseebshaik00/chess-interview/blob/main/vue-refresher/vue-cdn/index.html)
+
+

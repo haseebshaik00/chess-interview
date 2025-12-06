@@ -15,17 +15,19 @@
         const app = Vue.createApp({
             data(){
                 return{
-                    message: "Haseeb",
-                };
+                    message: "Haseeb"
+                }
             },
             methods: {
                 clickMe(){
                     console.log("Button Clicked!");
-                    this.message = "Button"
-                },
-            },
+                    if(this.message == "Haseeb") 
+                        this.message = "Button";
+                    else this.message = "Haseeb";
+                }
+            }
         });
-        app.mount('#app');
+        app.mount("#app");
     </script>
 </body>
 </html>
