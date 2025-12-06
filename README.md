@@ -27,3 +27,7 @@ Check out a simple implementation here: [Vue CDN](https://github.com/haseebshaik
 
 
 ## Create Vue
+
+- Options API
+- Composition API
+- Form modal
