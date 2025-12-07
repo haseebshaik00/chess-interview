@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+/* You can customize Tailwind's design tokens via @theme if you want */
+@theme {
+  /* Example custom accent color */
+  --color-accent: oklch(0.75 0.16 150);
+}
+
+/* Light/dark background + text */
+:root {
+  color-scheme: light;
+}
+
+html.dark {
+  color-scheme: dark;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+/* Optional: custom classes using your accent */
+.accent-pill {
+  @apply px-2 py-1 rounded-full text-xs font-medium;
+  background-color: var(--color-accent);
+  color: white;
+}
