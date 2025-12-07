@@ -1,12 +1,10 @@
 @import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
 
-/* You can customize Tailwind's design tokens via @theme if you want */
 @theme {
-  /* Example custom accent color */
   --color-accent: oklch(0.75 0.16 150);
 }
 
-/* Light/dark background + text */
 :root {
   color-scheme: light;
 }
@@ -18,9 +16,9 @@ html.dark {
 body {
   margin: 0;
   min-height: 100vh;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
 
-/* Optional: custom classes using your accent */
 .accent-pill {
   @apply px-2 py-1 rounded-full text-xs font-medium;
   background-color: var(--color-accent);

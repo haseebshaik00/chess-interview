@@ -40,7 +40,6 @@ export const useUiStore = defineStore('ui', {
       if (storedTheme === 'light' || storedTheme === 'dark') {
         this.setTheme(storedTheme);
       } else {
-        // default
         this.setTheme('light');
       }
     },
