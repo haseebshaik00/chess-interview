@@ -32,7 +32,3 @@ Check out a simple implementation here: [Vue CDN](https://github.com/haseebshaik
 - Composition API
 - Form modal
 
-## Pet Project - Job Portal
-
-- install Tailwind CSS
-
